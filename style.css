@@ -3,6 +3,12 @@
   flex-wrap: wrap;
   padding-top: 20px;
   justify-content: space-between;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .card {
@@ -11,6 +17,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 10px;
+  background-color: white;
 }
 
 img {
@@ -22,5 +29,4 @@ img {
   -webkit-box-shadow: 0px 0px 20px 5px #c4c4c4;
         transform: scale(1.2, 1.2);
         transition-duration: 0.5s;
-
 }
